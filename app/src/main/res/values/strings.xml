@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AllKotlin</string>
+
+    <string-array name="book">
+        <item>Select Book</item>
+        <item>Book A</item>
+        <item>Book B</item>
+        <item>Book C</item>
+    </string-array>
+</resources>
