@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-
+//Updated on 16072021
         val dao = SubscriberDatabase.getInstance(application).subscriberDao
         val repository = SubscriberRepository(dao)
         val factory = SubscriberViewModelFactory(repository)
